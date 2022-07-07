@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    display: flex;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    max-width: 350px;
+    min-height: 100vh;
+}
+
+.login figure{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login figure img{
+    width: 15vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    width: 80%;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+form h1{
+    color: #2C2B2B;
+    font-weight: 700;
+}
+
+input{
+    background-color:#e8e6e6;
+    height: 3vw;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    text-indent: 3%;
+}
+
+input::placeholder{
+    color: #716E6E;
+    position: relative;
+    bottom:20%;
+}
+
+.redesSociais{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.redesSociais button{
+    width: 28%;
+    height: 30px;
+    border: none;
+    border-radius: 8%;
+    cursor: pointer;
+}
+
+.redesSociais button:nth-child(1){
+    background-color: #2051FF ; 
+}
+
+.redesSociais button:nth-child(2){
+    background-color: #8A0000; 
+}
+
+.redesSociais button:nth-child(3){
+    background-color: black; 
+}
+
+button img{
+    width: 20px;
+}
+
+.checkbox{
+    width: 15px;
+    margin-right: 4px;
+}
+
+.keepSign{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    margin-left: 70px; 
+}
+
+.acesso{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7vh;
+}
+
+.entrar{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    color:#e8e6e6;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.entrar:disabled{
+    background-color: rgba(255,0,46,0.21);
+    cursor: auto;
+    color: white;
+}
+
+.acesso a{
+    text-decoration: none;
+    color:#A6A6A6;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.jogo{
+    width: 80%;
+    background-image: url('./assets/sec2.png');
+    background-position: center;
+    background-size: cover;
+}
